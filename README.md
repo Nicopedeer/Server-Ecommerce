@@ -1,27 +1,36 @@
 Ecommerce Server (NestJS + Express)
-Este repositorio contiene el código fuente para un servidor de comercio electrónico basado en NestJS y Express. El servidor proporciona API endpoints para gestionar productos, pedidos, usuarios y otras funcionalidades relacionadas con un ecommerce.
 
-Características
-Gestión de productos: Crear, leer, actualizar y eliminar productos.
-Gestión de pedidos: Crear, leer y actualizar pedidos.
-Autenticación de usuarios: Registro, inicio de sesión y autenticación mediante tokens JWT.
-Integración con base de datos: Utiliza TypeORM para interactuar con una base de datos (por ejemplo, PostgreSQL o MySQL).
-Requisitos previos
-Node.js (versión 14 o superior)
-npm o yarn
-Base de datos (por ejemplo, PostgreSQL) configurada y accesible
+This repository contains the source code for an ecommerce server based on NestJS and Express. The server provides API endpoints for managing products, orders, users, and other ecommerce-related functionalities.
+
+Features
+
+Product Management: Create, read, update, and delete products.
+
+Order Management: Create, read, and update orders.
+
+User Authentication: Registration, login, and authentication using JWT tokens.
+
+Database Integration: Utilizes TypeORM to interact with a database (e.g., PostgreSQL or MySQL).
 
 
-Instalación
+Prerequisites:
 
-Clona este repositorio:
+Node.js (version 14 or higher)
 
-git clone https://github.com/tu-usuario/ecommerce-server.git
+npm or yarn
+
+Configured and accessible database (e.g., PostgreSQL)
+
+Installation
+
+Clone this repository:
+
+git clone https://github.com/your-username/ecommerce-server.git
 
 cd ecommerce-server
 
-Instala las dependencias:
+Install dependencies:
 npm install
 
-Configura las variables de entorno:
-Crea un archivo .env en la raíz del proyecto y define las variables necesarias (por ejemplo, la cadena de conexión a la base de datos, el secreto para JWT, etc.).
+Configure environment variables:
+Create a .env file in the project root and define the necessary variables (e.g., database connection string, JWT secret, etc.).
